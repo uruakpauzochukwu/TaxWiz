@@ -8,8 +8,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from pinecone import Pinecone, ServerlessSpec
 
-OPENAI_API_KEY = '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'
-pinecone_api_key="pcsk_5SdECw_9FYdBrMDUB934JZaYAvtkF5Ukcbrm2LW7hrQJgN8mTeR8rmY4TvEezqDWgViA65"
 
 load_dotenv()
 # Configure logging
